@@ -1,0 +1,6 @@
+[package]
+name = "jitter_framework"
+edition = "2024"
+
+[dependencies]
+

@@ -1,0 +1,14 @@
+[package]
+name = "jitter"
+edition = "2024"         # edition = "legacy" to use legacy (pre-2024) Move
+# license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
+# authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
+
+[dependencies]
+jitter_admin = { local = "../jitter_admin" }
+jitter_math = { local = "../jitter_math" }
+jitter_oracle = { local = "../jitter_oracle" }
+jitter_framework = { local = "../jitter_framework" }
+
+# Read more about the package management system options:
+# https://docs.sui.io/guides/developer/sui-101/move-package-management
