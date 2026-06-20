@@ -23,8 +23,6 @@ Move contracts live under `contract/`. This public repo currently includes the `
 The `contract/jitter` code is roughly organized as:
 
 - `sources/protocol/`: market registry, SY, and core protocol modules.
-- `sources/user/`: user position and router modules.
-- `sources/reward/`: reward distribution modules.
 - `sources/config/`: configuration and calculation helpers such as AMM math.
 
 ## UI Overview
