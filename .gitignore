@@ -1,0 +1,8 @@
+.claude/
+.suiperpower/
+.github/skills/
+scripts/node_modules/
+node_modules/
+
+dist/
+.vercel
