@@ -7,7 +7,7 @@ This repo is primarily a reference for understanding the project structure, publ
 ## Project Contents
 
 - `contract/`: Sui Move contract source code.
-  - `contract/jitter/`: Jitter core market, router, SY/PY state, and reward-related modules.
+  - `contract/jitter/`: Jitter core market, router, SY/PY state.
   - `contract/jitter_framework/`: shared contract utilities, currently including `keyed_big_vector`.
 - `sdk/`: `@jitter/sdk`, a contract-first TypeScript SDK for market data, account reads, quotes, orderbook queries, and transaction construction.
 - `ui/`: `@jitter/ui`, React/Tailwind UI primitives such as button, card, input, tabs, badge, and related components.
